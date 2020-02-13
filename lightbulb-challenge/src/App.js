@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import AddButton from './AddButton'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Your code goes here :)</h1>
+        <AddButton />
       </div>
     );
   }

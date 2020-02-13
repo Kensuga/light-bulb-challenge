@@ -1,17 +1,84 @@
-.App {
-  text-align: center;
-}
-.flex {
-  display: flex;
-  flex-direction: column;
+.addButtons {
+    margin: 5px;
+    box-shadow: 0px 10px 14px -7px #000000;
+    background:linear-gradient(to bottom, #5ee7ff 5%, #537fa6 100%);
+    background-color:#5ee7ff;
+    border-radius:4px;
+    border:1px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
 }
 
-div {
-  height: auto;
-  width: 500px;
-  margin: 50px auto;
+.removeButtons {
+    margin: 5px;
+    box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #ff5c5c 5%, #a85454 100%);
+	background-color:#ff5c5c;
+	border-radius:4px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
 }
-img {
-  width: 150px;
-  height: auto;
+
+
+.addButtons:hover {
+	background:linear-gradient(to bottom, #537fa6 5%, #5ee7ff 100%);
+	background-color:#537fa6;
+}
+
+.removeButtons:hover {
+    background:linear-gradient(to bottom, #a65353 5%, #ff5e5e 100%);
+    background-color:#a65353;
+}
+
+.addButtons:active {
+	position:relative;
+	top:1px;
+}
+
+.removeButtons:active {
+	position:relative;
+	top:1px;
+}
+
+.App-Top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.buttonAlign {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.switch {
+    height: auto;
+    width: 100px;
+}
+
+.light {
+    height: auto;
+    width: 200px;
+}
+
+button {
+    border-style: none;
 }
